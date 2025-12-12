@@ -1,18 +1,17 @@
-/* Ensure the body and container have no background/shadows */
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin: 40px;
-    background-color: transparent; /* Absolutely no background color */
+    background-color: transparent;
 }
 
 .container {
     width: 90%;
     max-width: 500px;
     padding: 20px;
-    background-color: transparent; /* No container background */
+    background-color: transparent; 
 }
 
 h1 {
@@ -21,14 +20,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* The box around each task */
+
 .task-box {
-    background-color: #ffffff; /* White background for the box itself */
+    background-color: #ffffff; 
     padding: 20px;
     margin-bottom: 25px;
     border: 1px solid #ccc; 
     border-radius: 8px;
-    /* Using a very light, subtle shadow to suggest the box floating */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
 }
 
@@ -83,4 +81,5 @@ button:hover {
 .placeholder {
     color: #999;
     font-weight: normal;
+
 }

@@ -1,5 +1,3 @@
-// --- Task 1: Search Word in Sentence ---
-
 const sentence = document.getElementById("sentence");
 const word = document.getElementById("word");
 const result = document.getElementById("result");
@@ -25,8 +23,6 @@ btnCheck.addEventListener("click", function () {
 });
 
 
-// --- Task 2: Remove Spaces from Input ---
-
 let txtInput = document.querySelector('#txtInput');
 let btnReplaceAll = document.querySelector('#btnReplaceAll');
 let txtOutput = document.querySelector('#txtOutput');
@@ -44,4 +40,5 @@ btnReplaceAll.addEventListener('click',function(){
         txtOutput.classList.add('placeholder');
         txtOutput.style.color = "#999";
     }
+
 });

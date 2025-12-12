@@ -1,0 +1,86 @@
+/* Ensure the body and container have no background/shadows */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px;
+    background-color: transparent; /* Absolutely no background color */
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: transparent; /* No container background */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* The box around each task */
+.task-box {
+    background-color: #ffffff; /* White background for the box itself */
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    /* Using a very light, subtle shadow to suggest the box floating */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result-display {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px dashed #ccc; 
+    border-radius: 4px;
+}
+
+.placeholder {
+    color: #999;
+    font-weight: normal;
+}
